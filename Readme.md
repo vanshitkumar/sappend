@@ -16,4 +16,4 @@ sappend -file-url <azure-blob-url> [-local-file <local-file-path>]
 
 ## Command line options
 - `-file-url` (required): The URL of the Azure Blob Storage file to sync from.
-- `-local-file` (optional): The path to the local file to sync to. If not provided, it defaults to the basename of the blob file in the current directory.
+- `-local-file` (optional): The path to the local file to sync to. If not provided, it defaults to the blob url path, relative to current directory.
